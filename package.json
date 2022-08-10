@@ -1,0 +1,23 @@
+{
+  "name": "front-end-yoprogramo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000f\u0000r\u0000o\u0000n\u0000t\u0000-\u0000e\u0000n\u0000d\u0000-\u0000Y\u0000o\u0000P\u0000r\u0000o\u0000g\u0000r\u0000a\u0000m\u0000o\u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniorQuiroga/front-end-YoProgramo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuniorQuiroga/front-end-YoProgramo/issues"
+  },
+  "homepage": "https://github.com/JuniorQuiroga/front-end-YoProgramo#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1"
+  }
+}
