@@ -1,0 +1,81 @@
+{
+    "personal":{
+            "name":"Junior Quiroga",
+            "job":"Full-Stack Web Developer",
+            "desc":"Soy un apasionado del mundo de la tegnologia en busca de expandir mis conocimientos en este campo.",
+            "email":"quirogajunior25@gmail.com",
+            "socials":[
+                {
+                    "img":"https://img.icons8.com/ios-glyphs/344/github.png",
+                    "link":"https://github.com/JuniorQuiroga",
+                    "title":"Github"
+                }
+            ]
+        },
+    "education":[
+        {
+            "grade":"Estudios Secundarios",
+            "institution":"ET N°1 Otto Krause",
+            "title":"Tecnico en Ciencias de la Computacion",
+            "certification":"#"
+        },
+        {
+            "grade":"Curso Diseño Web Responsivo",
+            "institution":"freeCodeCamp",
+            "title":"Certificación",
+            "certification":"https://www.freecodecamp.org/certification/Quiroga_Junior/responsive-web-design"
+        }
+    ],
+    "knowledge":[
+        {
+            "img":"https://img.icons8.com/ios/344/python--v1.png",
+            "text":"Python"
+        },
+        {
+            "img":"https://img.icons8.com/external-outline-juicy-fish/344/external-sql-coding-and-development-outline-outline-juicy-fish.png",
+            "text":"SQL"
+        },
+        {
+            "img":"https://img.icons8.com/material-outlined/344/html-5.png",
+            "text":"HTML"
+        },
+        {
+            "img":"https://img.icons8.com/ios/344/css3.png",
+            "text":"CSS"
+        },
+        {
+            "img":"https://img.icons8.com/ios/344/javascript-logo.png",
+            "text":"JavaScript"
+        },
+        {
+            "img":"https://img.icons8.com/windows/344/angularjs.png",
+            "text":"Angular"
+        }
+    ],
+    "projects":[
+        {
+            "img":"https://i.imgur.com/ZVzxZp2.png",
+            "title":"Technical Landing Page",
+            "desc":"A responsive technical landing page created for the Responsive Web Design course of freeCodeCamp",
+            "date":"2022"
+        },
+        {
+            "img":"https://i.imgur.com/UUsnHMz.png",
+            "title":"Product Landing Page",
+            "desc":"A responsive product landing page created for the Responsive Web Design course of freeCodeCamp",
+            "date":"2022"
+        },
+        {
+            "img":"https://i.imgur.com/3jWQzJ9.png",
+            "title":"Tribute Page",
+            "desc":"A responsive tribute page created for the Responsive Web Design course of freeCodeCamp",
+            "date":"2022"
+        },
+        {
+            "img":"https://i.imgur.com/3bixvne.png",
+            "title":"Form Page",
+            "desc":"A responsive form page created for the Responsive Web Design course of freeCodeCamp",
+            "date":"2022"
+        }
+    ]
+}

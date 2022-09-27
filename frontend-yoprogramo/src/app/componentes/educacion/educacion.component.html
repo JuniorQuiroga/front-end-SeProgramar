@@ -1,0 +1,32 @@
+<div class="container-fluid edu-hab">
+    <h1>Habilidades y Educación</h1>
+    
+    <div class="container habilities">
+        <div class="row">
+
+            <div class="col" *ngFor="let knowledge of knowledgeList">
+                <div>
+                    <div class="img-container">
+                        <img class="skill-logos bi bi-image" [src]="knowledge.img">
+                    </div>
+                    <span class="hability-text">{{knowledge.text}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="education" >
+        <div *ngFor="let education of educationList">
+            <h2>{{education.grade}}</h2>
+            <span>{{education.institution}}</span>
+            <div class="certification">
+                <a [href]="education.certification">
+                    <i class="bi bi-image"></i>
+                    <!--[src]="miPorfolio.education.img"-->
+                    <span>{{education.title}}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
