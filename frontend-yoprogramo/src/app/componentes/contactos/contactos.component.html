@@ -1,0 +1,18 @@
+<div class="contact bg-dark">
+    <h1>Contactos</h1>
+
+    <div class="pages">
+        <div *ngFor="let contacto of contactsList">
+            <div class="page">
+                <a [href]="contacto.link">
+                    <div class="label">
+                        <div class="img-container">
+                            <img class="skill-logos bi bi-image" [src]="contacto.img">
+                        </div>
+                        <span>{{contacto.title}}</span>
+                    </div>
+                </a> 
+            </div>
+        </div>
+    </div>
+</div>

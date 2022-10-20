@@ -2,35 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link href="main.css" rel="stylesheet" type="text/css"/>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-purple" href="#">Junior Quiroga</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Educación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <section id="about">
         <div class="container-fluid">
             <div class="row align-items-center about-me-container">
@@ -185,5 +164,38 @@
         </div>
     </section>
 
+    <section id="contact" class="bg-dark">
+        
+        <h1>Contactos</h1>
+
+        <div class="socials">
+            <div class="page">
+                <a href="https://github.com/JuniorQuiroga">
+                    <div class="label">
+                        <i class="bi bi-image"></i>
+                        <span>GitHub</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="page">
+                <a href="mailto:quirogajunior25@gmail.com">
+                    <div class="label">
+                        <i class="bi bi-image"></i>
+                        <span>Email</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="page">
+                <a href="https://www.linkedin.com/in/quiroga-junior/">
+                    <div class="label">
+                        <i class="bi bi-image"></i>
+                        <span>linkedIn</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

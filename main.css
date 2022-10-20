@@ -10923,9 +10923,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  position: relative;
+  box-sizing: border-box;
+}
+
 .about-me-container {
   background-color: rgb(220, 250, 237);
-  height: calc(100vh - 56px);
+  height: 100vh;
 }
 .about-me-container .name {
   font-size: 17pt;
@@ -10941,31 +10949,22 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 530px) {
-  .about-me-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .about-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile-pic img {
-    width: 70vw;
-    border-radius: 50%;
-  }
-}
 .presentation div {
   display: flex;
   gap: 10px;
 }
+.presentation h1, .presentation .h1 {
+  height: 36px;
+}
 
+.edu-hab {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .edu-hab > h1, .edu-hab > .h1 {
   text-align: center;
   font-size: 20pt;
-  margin: 30px 0;
 }
 
 .habilities {
@@ -10977,12 +10976,15 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 0 0 20px 0;
 }
 .habilities .col > div {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 5px;
+}
+.habilities .skill-logos {
+  width: 20px;
 }
 
 .education {
@@ -10990,6 +10992,9 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+.education h2, .education .h2 {
+  height: 40px;
 }
 .education > div > span, .education .certification {
   margin-left: 20px;
@@ -11007,10 +11012,56 @@ textarea.form-control-lg {
   gap: 30px;
   width: 100%;
 }
+.projects h1, .projects .h1 {
+  height: 50px;
+}
 .projects .card {
   width: 60vw;
 }
 
-body > section {
+body > section:not(#contact) {
   margin-bottom: 50px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 25px;
+  color: white;
+}
+#contact > h1, #contact > .h1 {
+  height: 50px;
+}
+
+.socials {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.socials .label {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 530px) {
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-pic img {
+    width: 70vw;
+    border-radius: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
